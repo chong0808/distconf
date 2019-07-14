@@ -1,0 +1,17 @@
+{
+  "name": "git-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG='simple-git' node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "simple-git": "^1.120.0"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1"
+  }
+}
