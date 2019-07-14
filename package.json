@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "DEBUG='simple-git' node app.js"
+    "start": "cross-env DEBUG='simple-git' node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "simple-git": "^1.120.0"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "debug": "^4.1.1"
   }
 }
