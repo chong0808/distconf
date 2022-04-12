@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "simple-git": "^1.120.0"
+    "simple-git": "^3.5.0"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
